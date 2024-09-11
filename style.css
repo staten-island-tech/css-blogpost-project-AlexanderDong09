@@ -15,14 +15,14 @@ body{
   font-weight: 400;
   font-style: normal;
 }
-.titleheading{
+#titleheading{
     text-align: center;
     color: #F2F2F2;
     font-size: 40px;
     font-family: "Oswald", sans-serif;
     text-decoration: underline;
 }
-#introcard{
+.introcard{
     text-align: center;
     font-family: "Source Sans 3", system-ui;
     color: #ffffff;
@@ -31,8 +31,42 @@ body{
     border-radius: 50px;
     width: 650px;
     height: 200 px;
-    margin: 5px;
+    margin: 50px;
     padding: 15px;       /* tweak it later, if needed*/ 
     margin-left: auto;
     margin-right: auto;
 }
+#introcard-title{
+  text-align: center;
+    color: #F2F2F2;
+    font-family: "Source Sans 3", system-ui;
+    text-decoration: underline;
+}
+#absowikileft{
+  position: absolute;
+  top: 120px;
+  right: 1175;
+  width: 60px;
+}
+#absowikiright{
+  position: absolute;
+  top: 120px;
+  right: 700;
+  width: 60px;
+}
+
+.farfuturecard{
+  text-align: center;
+    font-family: "Source Sans 3", system-ui;
+    color: #ffffff;
+    background-color: #183D3D;    
+    border: 5px outset #93B1A6;
+    border-radius: 50px;
+    width: 900px;
+    height: 200px;
+    margin: 50px;
+    padding: 15px;       /* tweak it later, if needed*/ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
