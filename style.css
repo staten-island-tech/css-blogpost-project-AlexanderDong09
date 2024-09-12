@@ -50,7 +50,35 @@ a{
 
 
 
-.farfuturecard{
+#farfuturecard{
+  text-align: center;
+    font-family: "Source Sans 3", system-ui;
+    color: #ffffff;
+    background-color: #183D3D;    
+    border: 5px outset #93B1A6;
+    border-radius: 50px;
+    width: 650;
+    height: 700px;
+    margin: 50px;
+    padding: 15px;       
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#farfutureimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  border-radius: 50px;
+}
+.imagecaption{
+  font-size: 12px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+#paradoxescard{
   text-align: center;
     font-family: "Source Sans 3", system-ui;
     color: #ffffff;
