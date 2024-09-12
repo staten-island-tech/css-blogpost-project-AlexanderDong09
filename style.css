@@ -32,28 +32,23 @@ body{
     width: 650px;
     height: 200 px;
     margin: 50px;
-    padding: 15px;       /* tweak it later, if needed*/ 
+    padding: 15px;       
     margin-left: auto;
     margin-right: auto;
 }
-#introcard-title{
+
+.wiki-link h2{
   text-align: center;
     color: #F2F2F2;
     font-family: "Source Sans 3", system-ui;
     text-decoration: underline;
 }
-#absowikileft{
-  position: absolute;
-  top: 120px;
-  right: 1175;
-  width: 60px;
+
+a{
+  color: #48CFCB;
 }
-#absowikiright{
-  position: absolute;
-  top: 120px;
-  right: 700;
-  width: 60px;
-}
+
+
 
 .farfuturecard{
   text-align: center;
@@ -62,11 +57,38 @@ body{
     background-color: #183D3D;    
     border: 5px outset #93B1A6;
     border-radius: 50px;
-    width: 900px;
-    height: 200px;
+    width: 650;
+    height: 700px;
     margin: 50px;
-    padding: 15px;       /* tweak it later, if needed*/ 
+    padding: 15px;       
     margin-left: auto;
     margin-right: auto;
 }
 
+#farfutureimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  border-radius: 50px;
+}
+#farfutureblurb{
+  font-size: 12px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+
+#absowikileft{  /* yeah fix this later */ 
+position: absolute;
+top: 120px;
+right: 1175;
+width: 60px;
+}
+
+#absowikiright{ /* yeah fix this later */ 
+position: absolute;
+top: 120px;
+right: 700;
+width: 60px;
+}
