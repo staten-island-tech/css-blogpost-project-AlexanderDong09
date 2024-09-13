@@ -15,6 +15,8 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
+
 #titleheading{
     text-align: center;
     color: #F2F2F2;
@@ -24,7 +26,8 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.introcard{
+
+#introcard{
     text-align: center;
     font-family: "Source Sans 3", system-ui;
     color: #ffffff;
@@ -39,19 +42,23 @@ body{
     margin-right: auto;
 }
 
-.wiki-link h2{
-  text-align: center;
-    color: #F2F2F2;
-    font-family: "Source Sans 3", system-ui;
-    text-decoration: underline;
-}
 
 a{
   color: #48CFCB;
-  
 }
 
-
+.card-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  border-radius: 50px;
+}
+.imagecaption{
+  font-size: 12px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
 
 #farfuturecard{
   text-align: center;
@@ -68,18 +75,6 @@ a{
     margin-right: auto;
 }
 
-.card-image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 550px;
-  border-radius: 50px;
-}
-.imagecaption{
-  font-size: 12px;
-  padding-left: 45px;
-  padding-right: 45px;
-}
 
 #paradoxescard{
   text-align: center;
@@ -97,6 +92,21 @@ a{
 }
 
 #cryptogramcard{
+  text-align: center;
+    font-family: "Source Sans 3", system-ui;
+    color: #ffffff;
+    background-color: #183D3D;    
+    border: 5px outset #93B1A6;
+    border-radius: 50px;
+    width: 650;
+    height: 725px;
+    margin: 50px;
+    padding: 20px;       
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#unusualarticlescard{
   text-align: center;
     font-family: "Source Sans 3", system-ui;
     color: #ffffff;
