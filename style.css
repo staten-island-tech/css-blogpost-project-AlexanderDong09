@@ -21,6 +21,8 @@ body{
     font-size: 40px;
     font-family: "Oswald", sans-serif;
     text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
 }
 .introcard{
     text-align: center;
@@ -32,7 +34,7 @@ body{
     width: 650px;
     height: 200 px;
     margin: 50px;
-    padding: 15px;       
+    padding: 20px;       
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,6 +48,7 @@ body{
 
 a{
   color: #48CFCB;
+  
 }
 
 
@@ -60,12 +63,12 @@ a{
     width: 650;
     height: 700px;
     margin: 50px;
-    padding: 15px;       
+    padding: 20px;       
     margin-left: auto;
     margin-right: auto;
 }
 
-#farfutureimage{
+.card-image{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -86,24 +89,26 @@ a{
     border: 5px outset #93B1A6;
     border-radius: 50px;
     width: 650;
-    height: 700px;
+    height: 725px;
     margin: 50px;
-    padding: 15px;       
+    padding: 20px;       
     margin-left: auto;
     margin-right: auto;
 }
 
-#farfutureimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 550px;
-  border-radius: 50px;
-}
-#farfutureblurb{
-  font-size: 12px;
-  padding-left: 45px;
-  padding-right: 45px;
+#cryptogramcard{
+  text-align: center;
+    font-family: "Source Sans 3", system-ui;
+    color: #ffffff;
+    background-color: #183D3D;    
+    border: 5px outset #93B1A6;
+    border-radius: 50px;
+    width: 650;
+    height: 725px;
+    margin: 50px;
+    padding: 20px;       
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
