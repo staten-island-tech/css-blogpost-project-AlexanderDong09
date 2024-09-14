@@ -136,6 +136,25 @@ a{
     margin-right: auto;
 }
 
+#crabcard{
+  text-align: center;
+  font-family: "Source Sans 3", system-ui;
+  color: #ffffff;
+  background-color: #183D3D;    
+  border: 5px outset #93B1A6;
+  border-radius: 50px;
+  width: 650;
+  height: auto;
+  margin: 50px;
+  padding: 20px;       
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#crabsmallblurb{
+  font-size: 10px;
+}
+
 #absowikileft{  /* yeah fix this later */ 
 position: absolute;
 top: 120px;
