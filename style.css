@@ -163,13 +163,13 @@ ul {
 #absowikileft{  /* yeah fix this later */ 
 position: absolute;
 top: 145px;
-right: 1075;
+right: 900;
 width: 60px;
 }
 
 #absowikiright{ /* yeah fix this later */ 
 position: absolute;
 top: 145px;
-right: 575;
+right: 400;
 width: 60px;
 }
